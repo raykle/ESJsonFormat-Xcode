@@ -65,6 +65,7 @@
  *  Formatting with keys and values --Swift
  */
 - (NSString *)formatObjcWithKey:(NSString *)key value:(NSObject *)value{
+    //key = [key lowercaseString];
     NSString *qualifierStr = @"copy";
     NSString *typeStr = @"NSString";
     if ([value isKindOfClass:[NSString class]]) {
